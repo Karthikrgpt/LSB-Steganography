@@ -6,7 +6,8 @@ Last updated on 10th October 2024
 ------------------------------------------------------------------------------------------------------------
 
 Description :-
-    LSB (Least Significant Bit) Steganography is a technique used to hide secret information within digital
+
+  LSB (Least Significant Bit) Steganography is a technique used to hide secret information within digital
 images, audio files, or videos. It operates by modifying the least significant bit (the smallest unit of 
 information) in each byte of the cover media. Because the LSB is the part of the data that causes the least 
 visible or audible change, it’s an ideal place for concealing data without affecting the quality of the media 
@@ -15,6 +16,7 @@ noticeably.
 Here’s a breakdown to its key features :-
 
 1. Encoding:
+
     -> The -e command is used to encoded secret data (such as text or another file) into a cover file (like an 
        image, audio, or video). The process involves altering the least significant bits (LSBs) or some other 
        part of the media to hide the information.
@@ -69,7 +71,8 @@ Here’s a breakdown to its key features :-
                 INFO: Successfully codied remainig left over data
                 --------------  Encoding Procedure Completed  --------------
 
-3. Decoding:
+2. Decoding:
+
     -> The -d command is used to decode the hidden data from a steganographically modified file. This process 
        reads the bits that were altered during the encoding process to retrieve the original hidden message.
     -> Usage Example:
@@ -111,7 +114,7 @@ Here’s a breakdown to its key features :-
                 INFO: Decoded data is copied to file stego_secret.txt
                 --------------  Decoding Procedure Completed  --------------
 
-4. If commands are wrong:
+3. If commands are wrong:
    ------------------------------------------------------------
                 ------------------------------------------------------------
                                       Steganography
