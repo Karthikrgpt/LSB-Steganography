@@ -31,6 +31,7 @@ Here’s a breakdown to its key features :-
         -> output.bmp: The resulting file that contains the hidden message and mentioning the file name is user 
             choice and it is not nessery.
     -> output:
+   ------------------------------------------------------------
                 ------------------------------------------------------------
                                 Steganography : Encoding
                 ------------------------------------------------------------
@@ -68,7 +69,7 @@ Here’s a breakdown to its key features :-
                 INFO: Successfully codied remainig left over data
                 --------------  Encoding Procedure Completed  --------------
 
-2. Decoding:
+3. Decoding:
     -> The -d command is used to decode the hidden data from a steganographically modified file. This process 
        reads the bits that were altered during the encoding process to retrieve the original hidden message.
     -> Usage Example:
@@ -80,6 +81,7 @@ Here’s a breakdown to its key features :-
         -> sectret_file.txt: The output file where the extracted message will be saved and mentioning the file 
            name is user choice and it is not nessery.
     -> Output:
+   ------------------------------------------------------------
                 ------------------------------------------------------------
                                 Steganography : Decoding
                 ------------------------------------------------------------
@@ -109,7 +111,8 @@ Here’s a breakdown to its key features :-
                 INFO: Decoded data is copied to file stego_secret.txt
                 --------------  Decoding Procedure Completed  --------------
 
-3. If commands are wrong:
+4. If commands are wrong:
+   ------------------------------------------------------------
                 ------------------------------------------------------------
                                       Steganography
                 ------------------------------------------------------------
